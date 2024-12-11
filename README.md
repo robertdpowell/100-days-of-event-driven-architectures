@@ -15,9 +15,9 @@ Over time, we add producers and consumers to our architecture and we can end up 
 
 Big ball of mud architectures are characterised by 
 - Unclear domain boundaries
-- Hard to understand and change
+- Being hard to understand and change (hampers agility)
 
-To avoid
+To avoid the ball of mud...
 - Use **DDD** to define **boundaries, core domains and subdomains**.
 - **Event storming and event modeling** are techniques to help with this
 - Distinguish between private and public events. Private events stay within the same boundary. Sometimes it helps to include more implementation detail in our events, and that can be OK with private events as they do not escape the boundary. We need to be more careful with public events and design carefully to only share what is required.
@@ -30,4 +30,13 @@ When interacting with an event, there are **context mapping** options
 
 ## Day 3 
 
-  
+Batch processing and event streams are two methods of managing data within an EDA.
+
+**Batch**
+- Process lots in one go. For tasks that can tolerate delay and real-time is not a requirement
+
+**Event streams**
+- process data as it happens. Continuous flow in real time. Useful when real time insights are required - can give a competitive edge.
+- Consider the business requirement and choose appropriately, bearing in mind the cost.
+
+
