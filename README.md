@@ -39,4 +39,20 @@ Batch processing and event streams are two methods of managing data within an ED
 - process data as it happens. Continuous flow in real time. Useful when real time insights are required - can give a competitive edge.
 - Consider the business requirement and choose appropriately, bearing in mind the cost.
 
+## Day 4
+
+Today I looked at bi-directional patterns.
+
+There are a number of event communication patterns we can consider:-
+
+- Within services and boundaries
+- Between organisations, as companies look to exploit the value of their data in real time.
+- Between frontend and backend
+
+I also read into bounded contexts, which is a central pattern of DDD and allows us to encapsulate parts of our system. Each booundary has its own language to define the events and schemas within
+
+EDAs allow the decoupling of areas of our systems through definition of these clear boundaries. Decoupling enables flow.
+
+
+
 
