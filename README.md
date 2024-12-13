@@ -53,6 +53,19 @@ I also read into bounded contexts, which is a central pattern of DDD and allows 
 
 EDAs allow the decoupling of areas of our systems through definition of these clear boundaries. Decoupling enables flow.
 
+## Day 5
+
+- EDAs enable evolutinary design and implementation transformations.
+- Consider a scenario where a legacy app raises an event for the new systems to listen to.
+- Part of the transformation should be looking at the domain itself and whether it should be reflected as is in the future state.
+
+- EDAs help us scale.
+- Event storming and modeling help us to define our bounded contexts
+- Implementing can also help us define these domains! Don't dwell too long in the theoretical space
+- Domain discovery is a continuous process, not a one off event
+
+## Day 6
+
 
 
 
