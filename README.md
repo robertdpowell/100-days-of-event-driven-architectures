@@ -66,6 +66,17 @@ EDAs allow the decoupling of areas of our systems through definition of these cl
 
 ## Day 6
 
+**Choereography** - using events to talk between services or bounded contexts, with services interacting independently.
+**Orchestration** - flow of state handled by an orchestrator within a bounded context.
+
+
+**Claim Check Pattern**
+Store information first --> then send message to consumers. Allows us to avoid sending large amount of data in the event. We can share a key with the consumer, which allows the consumer to retrieve the data themselves.
+
+This pattern helps us answer the question:-
+_How can we reduce the data volume of message sent across the system without sacrificing information content? _
+
+Analogy - dropping luggage at airport check-in and then retrieving it later with your barcode.
 
 
 
