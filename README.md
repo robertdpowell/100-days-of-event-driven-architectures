@@ -79,4 +79,29 @@ This pattern helps us answer the question:- *How can we reduce the data volume o
 **Analogy** - *dropping luggage at airport check-in and then retrieving it later with your barcode.*
 
 
+## Day 7 
+
+**Commands vs Events**
+
+Commands represent the intent (think of a use case with a doing verb - PlaceOrder, RequestCredit) whereas an event is something that did happen in the past and is immutable (OrderCreated)
+
+**Common Issues when Scaling EDAs**
+
+- Keep a track of who is consuming which event, to help understand impact of changes to schemas and events.
+
+- Make events discoverable. How will people discover events 2 years from now?
+
+- In terms of coupling, remember that consumers rely on the contract of the event **and** the schema. 
+
+- Create multiple versions of events and give consumers time to migrate
+
+**Leaky events**
+
+- Consider standards on what goes into our events
+- Consider our domains and bounded contexts, to inform what should and should not be in an event
+- Consider transforming events we consume to avoid external domain info leaking into our domain
+  
+
+## Day 8
+
 
