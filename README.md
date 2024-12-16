@@ -104,4 +104,21 @@ Commands represent the intent (think of a use case with a doing verb - PlaceOrde
 
 ## Day 8
 
+**Content enricher pattern**
+When downstream consumers need more information than is provided in the event.
+With the content enricher pattern the enricher sits in the middle to pick up messages/events and enrich them (literally appends information to the message) before sending downstream to consumers.
+
+This helps the consumer as they don't need to add the enrichment in their own domain.
+
+Where does the enricher get its additional info from
+- It might compute it
+- It might retrieve it from another system
+- It might collect it from its own environment (e.g. a timestamp).
+
+
+BUT - consider this ---> if the consumer needs more information than we are providing, have we defined our payloads/boundaries correctly?
+
+
+
+
 
