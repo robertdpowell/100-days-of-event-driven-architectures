@@ -119,6 +119,25 @@ Where does the enricher get its additional info from
 BUT - consider this ---> if the consumer needs more information than we are providing, have we defined our payloads/boundaries correctly?
 
 
+**Day 9**
+
+Producers should not know about consumers. 
+
+Questions we need to answer in our documentation?
+
+What events is this service producing?
+What events messages can I consume from this service?
+What is the format of those messages?
+Which schema version should I use?
+Who is producing what?
+Who is consuming what?
+
+
+**How to document?**
+
+- Readme? But doesn’t fulfil discovery requirement.
+- AsyncAPI
+- Eventcatalog - opensource (add event catalogue to my product page)
 
 
 
