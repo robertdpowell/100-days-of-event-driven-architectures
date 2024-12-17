@@ -121,16 +121,16 @@ BUT - consider this ---> if the consumer needs more information than we are prov
 
 **Day 9**
 
-Producers should not know about consumers. 
+Producers should not know about consumers. So how can we document our EDAs to help our stakeholders understand the landscape?
 
-Questions we need to answer in our documentation?
+**Questions we need to answer in our documentation**
 
-What events is this service producing?
-What events messages can I consume from this service?
-What is the format of those messages?
-Which schema version should I use?
-Who is producing what?
-Who is consuming what?
+- What events is this service producing?
+- What events messages can I consume from this service?
+- What is the format of those messages?
+- Which schema version should I use?
+- Who is producing what?
+- Who is consuming what?
 
 
 **How to document?**
