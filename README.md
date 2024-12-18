@@ -119,7 +119,7 @@ Where does the enricher get its additional info from
 BUT - consider this ---> if the consumer needs more information than we are providing, have we defined our payloads/boundaries correctly?
 
 
-**Day 9**
+## Day 9
 
 Producers should not know about consumers. So how can we document our EDAs to help our stakeholders understand the landscape?
 
@@ -139,7 +139,7 @@ Producers should not know about consumers. So how can we document our EDAs to he
 - AsyncAPI
 - Eventcatalog - opensource
 
-**Day 10**
+## Day 10
 
 Different types of events can be published.
 
