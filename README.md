@@ -137,7 +137,29 @@ Producers should not know about consumers. So how can we document our EDAs to he
 
 - Readme? But doesn’t fulfil discovery requirement.
 - AsyncAPI
-- Eventcatalog - opensource (add event catalogue to my product page)
+- Eventcatalog - opensource
 
+**Day 10**
 
+Different types of events can be published.
+
+**Notification events**
+Notify consumers that something happened. Usually a small payload, and simple. Minimal contracts.
+Consumers often need to fetch data.
+
+**Event carried state transfer**
+Events that store state/bigger events, normally with large payloads.
+Events are enriched (stateful).
+Comes with higher risk of being out of sync.
+Decreases archiecture coupling
+
+**Delta events**
+Stores difference between old and new.
+CDC events are an example.
+Reduced complexity for the consumer as they don't need to work out themselves what changed.
+
+**Domain events**
+Raised within the same bounded context.
+AKA internal events.
+AKA integrations.
 
