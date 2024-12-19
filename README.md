@@ -163,3 +163,17 @@ Raised within the same bounded context.
 AKA internal events.
 AKA integrations.
 
+## Day 11
+
+Event identification and design is core part of EDA work.
+
+**Identify** --> Define Domains --> Event storming with Domain experts to identify business activity within the domain and candidate business events ---> Define a ubiquitous language.
+
+**Define** --> What type of events are they? What goes in them --> How are they discovered? --> Naming convention?
+
+**Implement** --> Use shared libraries to enforce standards in our codebase. Consider internal vs external events, coupling, contracts and how to minimise breaking changes
+
+https://www.youtube.com/watch?v=uPljZ08sk2c
+
+
+
