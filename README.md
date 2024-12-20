@@ -176,4 +176,17 @@ Event identification and design is core part of EDA work.
 https://www.youtube.com/watch?v=uPljZ08sk2c
 
 
+## Day 12
+
+EDA and Conway's law.
+
+Conway’s law suggests that the architecture of the system we build is a reflection of the teams that built it.
+
+If we apply DDD, we end up with nicely defined domains/bounded contexts within which teams can operate in a decoupled manner (enabling agility).
+
+Events are created and consumers can choose to listen if they wish.
+
+Orgs might see an organisation developing around the domains it creates.
+
+
 
